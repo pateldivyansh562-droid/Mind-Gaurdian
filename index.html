@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mind Guardia</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- FIXED CSS PATH -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+<header class="navbar">
+  <div class="nav-left">
+    <div class="logo-circle">
+        <img src="/logo.png" class="nav-logo-img" alt="Mind Guardian Logo">
+    </div>
+ <h2 style="color:#2ab47a;">Mind Guardian</h2>
+
+
+
+</div>
+
+
+
+
+    <nav class="nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="breathing.html">Breathing</a>
+      <a href="music.html">Music Therapy</a>
+      <a href="walking.html">Walking</a>
+      <a href="mentorship.html">Mentorship</a>
+      <a href="mood.html">Talk to Us</a>
+      <a href="feedback.html">Feedback</a>
+    </nav>
+
+    <a href="emergency.html" class="nav-emergency">Emergency Help</a>
+  </div>
+</header>
+
+<main id="home">
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="eyebrow">Your Mental Wellness Companion</div>
+      <h1>Find Your Inner <span class="accent">Peace & Strength</span></h1>
+      <p class="lead">Mind Guardia offers guided breathing exercises, music therapy, 1-on-1 mentorship, and 24/7 support to help you navigate life's challenges with compassion.</p>
+      <div class="hero-cta">
+        <a href="breathing.html" class="btn primary">♡ Start Breathing Exercise</a>
+        <a href="mentorship.html" class="btn outline">Talk to Someone</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="services container">
+    <article class="card">
+      <div class="icon">💗</div>
+      <h3>Guided Breathing</h3>
+      <p>Calm your mind with our interactive breathing exercises.</p>
+    </article>
+    <article class="card">
+      <div class="icon">🎵</div>
+      <h3>Music Therapy</h3>
+      <p>Soothing playlists to heal and relax your soul.</p>
+    </article>
+    <article class="card">
+      <div class="icon">👥</div>
+      <h3>1-on-1 Mentorship</h3>
+      <p>Connect with trained professionals who care.</p>
+    </article>
+  </section>
+
+  <!-- ================== BREATHING (INDEX) ================== -->
+<section id="breathing" class="section-light">
+  <div class="container section-inner">
+    <h2>Guided Breathing</h2>
+    <p class="muted">Follow the 4–4–4–2 cycle and calm your mind.</p>
+
+    <div class="breathing-wrap">
+  <div id="breathing-circle" class="breath-circle">
+  <div id="breath-text">Press Start</div>
+  <div id="breath-timer">0</div>
+</div>
+
+
+  <div class="breath-controls">
+    <button id="breath-start" class="btn primary">▶ Start</button>
+    <button id="breath-reset" class="btn outline">↺ Reset</button>
+  </div>
+</div>
+</section>
+
+
+  <!-- music therapy section -->
+   <section class="music-container">
+
+  <h2>Heal Through Sound</h2>
+  <br><br>
+  <!-- <p class="muted">Choose a playlist that resonates with your mood.</p> -->
+
+  <div class="mood-buttons">
+    <div class="mood-btn active" data-name="Calm & Peaceful" data-desc="Find calm and serenity" data-icon="fa-leaf" data-playlist="37i9dQZF1DWYzpSJHStHHx">
+      <i class="fa-solid fa-leaf"></i> Calm & Peaceful
+    </div>
+
+    <div class="mood-btn" data-name="Deep Sleep" data-desc="Drift into peaceful slumber" data-icon="fa-moon" data-playlist="37i9dQZF1DX3Ogo9pFvBkY">
+      <i class="fa-solid fa-moon"></i> Deep Sleep
+    </div>
+
+    <div class="mood-btn" data-name="Focus & Clarity" data-desc="Improve concentration" data-icon="fa-sun" data-playlist="37i9dQZF1DWZeKCadgRdKQ">
+      <i class="fa-solid fa-sun"></i> Focus & Clarity
+    </div>
+
+    <div class="mood-btn" data-name="Nature Sounds" data-desc="Soft ambient nature audio" data-icon="fa-cloud-rain" data-playlist="37i9dQZF1DWU0ScTcjJBdj">
+      <i class="fa-solid fa-cloud-rain"></i> Nature Sounds
+    </div>
+
+    <div class="mood-btn" data-name="Healing Vibes" data-desc="Relax and heal your mind" data-icon="fa-heart" data-playlist="37i9dQZF1DWX83CujKHHOn">
+      <i class="fa-solid fa-heart"></i> Healing Vibes
+    </div>
+
+    <div class="mood-btn" data-name="Meditation" data-desc="Clear your thoughts" data-icon="fa-music" data-playlist="37i9dQZF1DWZqd5JICZI0u">
+      <i class="fa-solid fa-music"></i> Meditation
+    </div>
+  </div>
+
+  <!-- <div class="mood-info-card" id="mood-info">
+    <div class="icon-box"><i class="fa-solid fa-leaf"></i></div>
+    <!-- <div>
+      <h3>Calm & Peaceful</h3>
+      <p>Find calm and serenity</p>
+    </div> -->
+  
+
+  <div class="spotify-player-card">
+    <iframe id="spotify-player"
+            src="https://open.spotify.com/embed/playlist/37i9dQZF1DWYzpSJHStHHx"
+            frameborder="0"
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+    </iframe>
+  </div>
+
+  <!-- <div class="open-spotify">
+    <i class="fa-brands fa-spotify"></i> Open in Spotify
+  </div> -->
+
+</section>
+
+
+  <!-- WALKING UPDATED SECTION -->
+<section id="walking" class="section-light">
+  <div class="container section-inner">
+    
+    <h2>Walk Your Way to Wellness</h2>
+    <br><br>
+    <!-- <p class="muted">Combine movement with mindfulness for profound benefits.</p> -->
+
+    <div class="grid-3">
+      <div class="card small">
+        <div class="icon">💚</div>
+        <h4>Reduces Stress</h4>
+        <p>Walking releases endorphins and calms the mind.</p>
+      </div>
+      <div class="card small">
+        <div class="icon">🌳</div>
+        <h4>Connect with Nature</h4>
+        <p>Fresh air and greenery boost mental clarity.</p>
+      </div>
+      <div class="card small">
+        <div class="icon">🧭</div>
+        <h4>Mindful Steps</h4>
+        <p>Every step becomes a moment of awareness.</p>
+      </div>
+    </div>
+
+    <!-- MINI STEPS TRACKER -->
+    <div class="card" style="max-width:500px;margin:24px auto;text-align:center;padding:20px;">
+      <h3>Your Daily Steps</h3>
+
+      <div id="steps-mini" style="font-size:28px;font-weight:700;margin:10px 0;">0</div>
+
+      <div style="height:10px;background:#e8f3f2;border-radius:20px;overflow:hidden;margin:10px 0;">
+        <div id="steps-mini-progress" style="height:100%;width:0%;background:#2ab49b;transition:.4s;"></div>
+      </div>
+
+      <button class="btn primary" onclick="addStepsMini(500)">+ 500</button>
+    </div>
+<!-- 
+    <p class="center small-note"><a href="walking.html">Open full walking page</a></p> -->
+  </div>
+</section>
+
+<script>
+let stepsMini = 0;
+let goalMini = 5000;
+
+function addStepsMini(num){
+  stepsMini += num;
+  document.getElementById('steps-mini').innerText = stepsMini;
+  document.getElementById('steps-mini-progress').style.width = Math.min((stepsMini/goalMini)*100,100) + "%";
+}
+</script>
+
+
+  <!-- ================= MENTORSHIP (SECTION ONLY — JS REMOVED) ================= -->
+<section id="mentorship" class="section-mentorship">
+  <div class="container section-inner">
+    
+    <section class="mentor-hero-section">
+    <div class="mentor-badge">1-on-1 Mentorship</div>
+    <h1 class="mentor-title">Talk to Someone Who Cares</h1>
+    <p class="mentor-subtext">
+        Connect with trained mental health professionals for personalized support.
+    </p>
+</section>
+
+
+<section class="section-mentorship">
+    <div class="container section-inner">
+
+        <h2>Talk to Someone Who Cares</h2>
+        <p class="muted">Choose from psychologists, therapists, and certified life coaches.</p>
+
+        <!-- RADIO INPUTS (CSS FILTERING) -->
+        <input type="radio" name="filter" id="filter-all" checked>
+        <input type="radio" name="filter" id="filter-psychologist">
+        <input type="radio" name="filter" id="filter-therapist">
+        <input type="radio" name="filter" id="filter-coach">
+
+        <!-- FILTER BUTTONS -->
+        <div class="filter-bar">
+            <label class="btn outline" for="filter-all">All</label>
+            <label class="btn outline" for="filter-psychologist">Psychologists</label>
+            <label class="btn outline" for="filter-therapist">Therapists</label>
+            <label class="btn outline" for="filter-coach">Life Coaches</label>
+        </div>
+
+
+        <!-- MENTOR GRID -->
+        <div class="mentors grid-4" id="mentor-grid">
+
+            <!-- PSYCHOLOGIST -->
+            <div class="mentor card" data-type="psychologist">
+                <img class="mentor-img" src="/mentor 2 priya.jpeg" alt="Dr Priya Sharma">
+                <h4>Dr. Priya Sharma</h4>
+                <p class="muted">Clinical Psychologist · Anxiety · Depression</p>
+                <div class="rating">⭐ 4.9 • 230 reviews</div>
+                <div class="availability available">Available Today</div>
+                <button class="btn primary">Book Session</button>
+                <a class="btn outline" href="https://www.theguardian.com/profile/priya-sharma">View Profile</a>
+            </div>
+
+            <!-- THERAPIST -->
+            <div class="mentor card" data-type="therapist">
+                <img class="mentor-img" src="/mentar 3 Rahul-Verma.avif" alt="Rahul Verma">
+                <h4>Rahul Verma</h4>
+                <p class="muted">Counseling Therapist · Stress · Relationships</p>
+                <div class="rating">⭐ 4.8 • 180 reviews</div>
+                <div class="availability available">Available</div>
+                <button class="btn primary">Book Session</button>
+                <a class="btn outline" href="https://www.theguardian.com/profile/rahul-verma">View Profile</a>
+            </div>
+
+            <!-- PSYCHIATRIST -->
+            <div class="mentor card" data-type="psychologist">
+                <img class="mentor-img" src="/mentor 1 anita.webp" alt="Dr Anita Desai">
+                <h4>Dr. Anita Desai</h4>
+                <p class="muted">Psychiatrist · Mood Disorders</p>
+                <div class="rating">⭐ 4.7 • 112 reviews</div>
+                <div class="availability available">Available</div>
+                <button class="btn primary">Book Session</button>
+                <a class="btn outline" href="https://www.theguardian.com/books/article/2024/jun/29/anita-desai-after-i-left-india-i-had-to-train-myself-to-express-my-opinions">View Profile</a>
+            </div>
+
+            <!-- COACH -->
+            <div class="mentor card" data-type="coach">
+                <img class="mentor-img" src="/mentor4.jpeg" alt="Vikram Singh">
+                <h4>Vikram Singh</h4>
+                <p class="muted">Life Coach · Career · Mindfulness</p>
+                <div class="rating">⭐ 4.9 • 310 reviews</div>
+                <div class="availability unavailable">Unavailable</div>
+                <button class="btn outline disabled">Not Available</button>
+                <a class="btn outline" href="#">View Profile</a>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+        <div id="ai-messages" class="ai-messages-wide">
+          <div class="ai-message bot">Hello! I'm here to listen and support you. How are you feeling today? 💚</div>
+        </div>
+
+        <div class="ai-input-wide">
+          <input id="ai-input-2" placeholder="Share how you're feeling..." />
+          <button id="ai-send-2" class="btn primary" title="Send">➤</button>
+        </div>
+      </div>
+
+      <p class="muted center small-note">This AI provides supportive responses but is not a replacement for professional help. If you're in crisis, please contact emergency services.</p>
+    </div>
+  </section>
+
+  <section class="helpline-wrapper">
+
+  <!-- TOP CRISIS WARNING BAR -->
+  <div class="crisis-top-banner">
+      <p>If you or someone you know is in immediate danger, please call emergency services (112) or contact a helpline below. You are not alone.</p>
+      <a href="tel:112" class="call112-btn"><i class="fa-solid fa-phone"></i> Call 112</a>
+  </div>
+
+  <h2 class="helpline-title">India Suicide Prevention Helplines</h2>
+  <p class="helpline-subtext">
+      These organizations provide free, confidential support.  
+      Trained counselors are ready to help you 24/7.
+  </p>
+
+  <!-- HELPLINE GRID -->
+  <div class="helpline-grid">
+
+      <!-- AASRA -->
+      <div class="helpline-card">
+          <h3>AASRA</h3>
+          <p class="small">24/7 Crisis intervention and suicide prevention</p>
+          <div class="hl-info">
+              <span><i class="fa-solid fa-clock"></i> 24 hours</span>
+          </div>
+          <div class="hl-number"><i class="fa-solid fa-phone"></i> 9820466726</div>
+          <a href="tel:9820466726" class="hl-call-btn"><i class="fa-solid fa-phone"></i> Call Now</a>
+      </div>
+
+      <!-- iCall -->
+      <div class="helpline-card">
+          <h3>iCall</h3>
+          <p class="small">Psychosocial helpline by TISS</p>
+          <div class="hl-info">
+              <span><i class="fa-solid fa-clock"></i> Mon–Sat, 8am–10pm</span>
+          </div>
+          <div class="hl-number"><i class="fa-solid fa-phone"></i> 9152987821</div>
+          <a href="tel:9152987821" class="hl-call-btn"><i class="fa-solid fa-phone"></i> Call Now</a>
+      </div>
+
+      <!-- Vandrevala -->
+      <div class="helpline-card">
+          <h3>Vandrevala Foundation</h3>
+          <p class="small">Free mental health support</p>
+          <div class="hl-info">
+              <span><i class="fa-solid fa-clock"></i> 24 hours</span>
+          </div>
+          <div class="hl-number"><i class="fa-solid fa-phone"></i> 18602662345</div>
+          <a href="tel:18602662345" class="hl-call-btn"><i class="fa-solid fa-phone"></i> Call Now</a>
+      </div>
+
+      <!-- NIMHANS -->
+      <div class="helpline-card">
+          <h3>NIMHANS</h3>
+          <p class="small">National mental health helpline</p>
+          <div class="hl-info">
+              <span><i class="fa-solid fa-clock"></i> 24 hours</span>
+          </div>
+          <div class="hl-number"><i class="fa-solid fa-phone"></i> 080-46110007</div>
+          <a href="tel:08046110007" class="hl-call-btn"><i class="fa-solid fa-phone"></i> Call Now</a>
+      </div>
+
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-left">
+      <div class="brand-small">💚 Mind Guardia</div>
+      <p>Your trusted companion for mental wellness.</p>
+      <div class="socials"><a href="#">🐦</a><a href="#">📸</a><a href="#">▶</a></div>
+    </div>
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="breathing.html">Breathing Exercise</a></li>
+        <li><a href="music.html">Music Therapy</a></li>
+        <li><a href="walking.html">Walking Therapy</a></li>
+        <li><a href="mentorship.html">1-on-1 Mentorship</a></li>
+        <li><a href="mood.html">Talk to Us</a></li>
+        <li><a href="emergency.html">Emergency Help</a></li>
+      </ul>
+    </div>
+    <div class="footer-contact">
+      <h4>Contact Us</h4>
+      <p>support@mindguardia.com</p>
+      <p>+91 98765 43210</p>
+      <p>Ghaziabad, India</p>
+    </div>
+  </div>
+
+  <div class="footer-bottom container">
+   <p>
+    © 2025 Mind Guardian • 
+  <a href="https://www.freeprivacypolicy.com/live/421fdbed-2689-4f57-8ec6-35f7523bf83a">
+  Privacy Policy
+</a>
+
+
+
+  </p>
+
+  <div class="crisis-bar">
+    <div class="container"><strong>Crisis Helpline:</strong> Call Divyansh at <a href="tel:9820466726">9820466726</a></div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/breathing.js"></script>
+<script src="js/mood.js"></script>
+<script src="js/mentorship.js"></script>
+</body>
+</html>

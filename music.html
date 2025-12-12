@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Therapy — Mind Guardia</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="nav-left">
+    <div class="logo-circle">
+        <img src="/logo.png" class="nav-logo-img" alt="Mind Guardian Logo">
+    </div>
+    <h2 style="color:#2ab47a;">Mind Guardian</h2>
+</div>
+
+
+
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="breathing.html">Breathing</a>
+      <a href="music.html" class="active">Music Therapy</a>
+      <a href="walking.html">Walking</a>
+      <a href="mentorship.html">Mentorship</a>
+      <a href="mood.html">Talk to Us</a>
+      <a href="feedback.html">Feedback</a>
+    </nav>
+
+    <a href="emergency.html" class="nav-emergency">Emergency Help</a>
+  </div>
+</header>
+
+<section class="music-container">
+
+  <h2>Heal Through Sound</h2>
+  <br><br>
+  <!-- <p class="muted">Choose a playlist that resonates with your mood.</p> -->
+
+  <div class="mood-buttons">
+    <div class="mood-btn active" data-name="Calm & Peaceful" data-desc="Find calm and serenity" data-icon="fa-leaf" data-playlist="37i9dQZF1DWYzpSJHStHHx">
+      <i class="fa-solid fa-leaf"></i> Calm & Peaceful
+    </div>
+
+    <div class="mood-btn" data-name="Deep Sleep" data-desc="Drift into peaceful slumber" data-icon="fa-moon" data-playlist="37i9dQZF1DX3Ogo9pFvBkY">
+      <i class="fa-solid fa-moon"></i> Deep Sleep
+    </div>
+
+    <div class="mood-btn" data-name="Focus & Clarity" data-desc="Improve concentration" data-icon="fa-sun" data-playlist="37i9dQZF1DWZeKCadgRdKQ">
+      <i class="fa-solid fa-sun"></i> Focus & Clarity
+    </div>
+
+    <div class="mood-btn" data-name="Nature Sounds" data-desc="Soft ambient nature audio" data-icon="fa-cloud-rain" data-playlist="37i9dQZF1DWU0ScTcjJBdj">
+      <i class="fa-solid fa-cloud-rain"></i> Nature Sounds
+    </div>
+
+    <div class="mood-btn" data-name="Healing Vibes" data-desc="Relax and heal your mind" data-icon="fa-heart" data-playlist="37i9dQZF1DWX83CujKHHOn">
+      <i class="fa-solid fa-heart"></i> Healing Vibes
+    </div>
+
+    <div class="mood-btn" data-name="Meditation" data-desc="Clear your thoughts" data-icon="fa-music" data-playlist="37i9dQZF1DWZqd5JICZI0u">
+      <i class="fa-solid fa-music"></i> Meditation
+    </div>
+  </div>
+
+  <!-- <div class="mood-info-card" id="mood-info">
+    <div class="icon-box"><i class="fa-solid fa-leaf"></i></div>
+    <div>
+      <h3>Calm & Peaceful</h3>
+      <p>Find calm and serenity</p>
+    </div>
+  </div> -->
+
+  <div class="spotify-player-card">
+    <iframe id="spotify-player"
+            src="https://open.spotify.com/embed/playlist/37i9dQZF1DWYzpSJHStHHx"
+            frameborder="0"
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+    </iframe>
+  </div>
+
+  <!-- <div class="open-spotify">
+    <i class="fa-brands fa-spotify"></i> Open in Spotify
+  </div> -->
+
+</section>
+
+
+<script src="js/music.js"></script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mentorship — Mind Guardia</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+   <div class="nav-left">
+    <div class="logo-circle">
+        <img src="/logo.png" class="nav-logo-img" alt="Mind Guardian Logo">
+    </div>
+     <h2 style="color:#2a46b4;">Mind Guardian</h2>
+</div>
+
+
+
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="breathing.html">Breathing</a>
+            <a href="music.html">Music Therapy</a>
+            <a href="walking.html">Walking</a>
+            <a class="active" href="mentorship.html">Mentorship</a>
+            <a href="mood.html">Talk to Us</a>
+        </nav>
+
+        <a href="emergency.html" class="nav-emergency">Emergency Help</a>
+    </div>
+</header>
+
+
+<!-- HERO -->
+<section class="mentor-hero-section">
+    <div class="mentor-badge">1-on-1 Mentorship</div>
+    <h1 class="mentor-title">Talk to Someone Who Cares</h1>
+    <p class="mentor-subtext">
+        Connect with trained mental health professionals for personalized support.
+    </p>
+</section>
+
+
+<section class="section-mentorship">
+    <div class="container section-inner">
+
+        <h2>Talk to Someone Who Cares</h2>
+        <p class="muted">Choose from psychologists, therapists, and certified life coaches.</p>
+
+        <!-- RADIO INPUTS (CSS FILTERING) -->
+        <input type="radio" name="filter" id="filter-all" checked>
+        <input type="radio" name="filter" id="filter-psychologist">
+        <input type="radio" name="filter" id="filter-therapist">
+        <input type="radio" name="filter" id="filter-coach">
+
+        <!-- FILTER BUTTONS -->
+        <div class="filter-bar">
+            <label class="btn outline" for="filter-all">All</label>
+            <label class="btn outline" for="filter-psychologist">Psychologists</label>
+            <label class="btn outline" for="filter-therapist">Therapists</label>
+            <label class="btn outline" for="filter-coach">Life Coaches</label>
+        </div>
+
+
+        <!-- MENTOR GRID -->
+        <div class="mentors grid-4" id="mentor-grid">
+
+            <!-- PSYCHOLOGIST -->
+            <div class="mentor card" data-type="psychologist">
+                <img class="mentor-img" src="/mentor 2 priya.jpeg" alt="Dr Priya Sharma">
+                <h4>Dr. Priya Sharma</h4>
+                <p class="muted">Clinical Psychologist · Anxiety · Depression</p>
+                <div class="rating">⭐ 4.9 • 230 reviews</div>
+                <div class="availability available">Available Today</div>
+                <button class="btn primary">Book Session</button>
+                <a class="btn outline" href="https://www.theguardian.com/profile/priya-sharma">View Profile</a>
+            </div>
+
+            <!-- THERAPIST -->
+            <div class="mentor card" data-type="therapist">
+                <img class="mentor-img" src="/mentar 3 Rahul-Verma.avif" alt="Rahul Verma">
+                <h4>Rahul Verma</h4>
+                <p class="muted">Counseling Therapist · Stress · Relationships</p>
+                <div class="rating">⭐ 4.8 • 180 reviews</div>
+                <div class="availability available">Available</div>
+                <button class="btn primary">Book Session</button>
+                <a class="btn outline" href="https://www.theguardian.com/profile/rahul-verma">View Profile</a>
+            </div>
+
+            <!-- PSYCHIATRIST -->
+            <div class="mentor card" data-type="psychologist">
+                <img class="mentor-img" src="/mentor 1 anita.webp" alt="Dr Anita Desai">
+                <h4>Dr. Anita Desai</h4>
+                <p class="muted">Psychiatrist · Mood Disorders</p>
+                <div class="rating">⭐ 4.7 • 112 reviews</div>
+                <div class="availability available">Available</div>
+                <button class="btn primary">Book Session</button>
+                <a class="btn outline" href="https://www.theguardian.com/books/article/2024/jun/29/anita-desai-after-i-left-india-i-had-to-train-myself-to-express-my-opinions">View Profile</a>
+            </div>
+
+            <!-- COACH -->
+            <div class="mentor card" data-type="coach">
+                <img class="mentor-img" src="/mentor4.jpeg" alt="Vikram Singh">
+                <h4>Vikram Singh</h4>
+                <p class="muted">Life Coach · Career · Mindfulness</p>
+                <div class="rating">⭐ 4.9 • 310 reviews</div>
+                <div class="availability unavailable">Unavailable</div>
+                <button class="btn outline disabled">Not Available</button>
+                <a class="btn outline" href="#">View Profile</a>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<footer class="site-footer minimal">
+    <div class="container">© 2024 Mind Guardia</div>
+</footer>
+
+</body>
+</html>
